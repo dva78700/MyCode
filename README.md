@@ -468,9 +468,12 @@ Margarine consumption increase is strongly correlated with divorce rate (r=0,99)
 # Confounders
 
 Une correlation directe entre 2 variables peut masquer une 3ème variable qui est la variable avec un vrai lien de causalité
-Exemple : Les cancers du poumons sont correlés avec la quantité de café bue. En fait, ceux qui boivent du café fume aussi des cigarettes... 
+
+Exemple : 
+Les cancers du poumons sont correlés avec la quantité de café bue. 
+En fait, ceux qui boivent du café fume aussi des cigarettes... 
 et ce sont ces cigarettes qui ont un vrai impact (relation de causalité) avec les cancers du poumon...
-Les cigarettes sont appelés "cofounders" (co-facteurs j'imagine)
+Les cigarettes sont appelées "cofounders" (co-facteurs j'imagine)
 
 
 
