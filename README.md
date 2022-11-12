@@ -449,5 +449,28 @@ msleep["sleep_total"].corr(msleep["sleep_rem"])
 >   * Kendall's tau
 >   * Spearman Rho
 
+## CORRELATION CAVEAT
+
+### Non linear correlation
+
+* Some correlations are not linear
+* Example : log, quatratic, exp...
+* A low correlation coefficient doesn't mean that there is no correlation but no linear correletion
+
+### Variable transformation to return into linear regression correlation case
+
+np.log(x), sqrt(x), 1/x, ...
+
+### Correlation doesn't mean causality
+
+Margarine consumption increase is strongly correlated with divorce rate (r=0,99) but it doesn't mean eating more margarine implies a divorce !
+
+# Confounders
+
+Une correlation directe entre 2 variables peut masquer une 3ème variable qui est la variable avec un vrai lien de causalité
+Exemple : Les cancers du poumons sont correlés avec la quantité de café bue. En fait, ceux qui boivent du café fume aussi des cigarettes... 
+et ce sont ces cigarettes qui ont un vrai impact (relation de causalité) avec les cancers du poumon...
+Les cigarettes sont appelés "cofounders" (co-facteurs j'imagine)
+
 
 
