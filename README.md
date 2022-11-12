@@ -465,15 +465,22 @@ np.log(x), sqrt(x), 1/x, ...
 
 Margarine consumption increase is strongly correlated with divorce rate (r=0,99) but it doesn't mean eating more margarine implies a divorce !
 
-# Confounders
+# Confounders (facteur de confusion)
 
 Une correlation directe entre 2 variables peut masquer une 3ème variable qui est la variable avec un vrai lien de causalité
 
 Exemple : 
 Les cancers du poumons sont correlés avec la quantité de café bue. 
-En fait, ceux qui boivent du café fume aussi des cigarettes... 
+En fait, ceux qui boivent du café fument aussi des cigarettes... 
 et ce sont ces cigarettes qui ont un vrai impact (relation de causalité) avec les cancers du poumon...
-Les cigarettes sont appelées "cofounders" (co-facteurs j'imagine)
+Les cigarettes sont appelées "confounder" (facteur de confusion)
 
+## EXPERIMENTS TYPES
 
+* Controlled experiments : new experiments / polution splited (randomly or not) into 2 groups (treatment group and control group)
+* Observational studies : based from existing data
+    * longitudinal studies : same sample/population studied during time
+    * cross sectional studies : different sample/population stuidied at a certain point in time
+
+> Build on your skills : Introduction du linear modeling in python
 
